@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 400px;
+    background: url(https://sun9-29.userapi.com/impg/S3DyWMSGAdXV5eYXR8M02vh_x1jSyiD9oT6Bdw/2WRCeIc3XrY.jpg?size=604x402&quality=96&sign=c4222d6e8e38201df1c4d7cbd614c938&type=album) bottom no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: rgb(17, 12, 12);
+    font-size: 5rem;
+    font-family: gabriola;
+}
+
+.news {
+    background-color: rgb(253, 253, 253);
+    padding: 5px 0 32px;
+}
+
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+article a{
+    color: rgb(33, 37, 41);
+    text-decoration: none;
+}
+
+article a:hover {
+    color: #0085a1
+}
+
+article h2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
+
+.article-meta {
+    color: rgb(134, 142, 150);
+    margin-bottom: 5px;
+}
+
+article img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.p-e::before{
+    content: "New";
+    display:inline;
+    color: rgb(100, 98, 98);
+}
+
+.photoResource {
+    color: rgb(48, 47, 47);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px; 
+}
+
+article:nth-of-type(2n) {
+    background-color: rgb(239, 227, 252);
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links {
+    margin-top: 50px;
+}
+
+footer .links > a {
+    color:rgb(75, 47, 47);
+    padding: 0 35px;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: gabriola;
+}
+
+.copyright {
+    color: rgb(75, 47, 47);
+    font-family: gabriola;
+    font-size: 20px;
+}
